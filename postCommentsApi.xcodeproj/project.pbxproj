@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903DF73724F6786B0004CC58 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903DF73624F6786B0004CC58 /* RealmData.swift */; };
 		904616B024F5042800079FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616AF24F5042800079FFC /* AppDelegate.swift */; };
 		904616B224F5042800079FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616B124F5042800079FFC /* SceneDelegate.swift */; };
 		904616B424F5042800079FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616B324F5042800079FFC /* ViewController.swift */; };
 		904616B724F5042800079FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904616B524F5042800079FFC /* Main.storyboard */; };
 		904616B924F5042E00079FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904616B824F5042E00079FFC /* Assets.xcassets */; };
 		904616BC24F5042E00079FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904616BA24F5042E00079FFC /* LaunchScreen.storyboard */; };
+		904616C624F506C200079FFC /* PostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616C524F506C200079FFC /* PostApi.swift */; };
+		904616C924F5094300079FFC /* PostApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616C824F5094300079FFC /* PostApiRequest.swift */; };
+		904616CB24F52C4400079FFC /* CommentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616CA24F52C4400079FFC /* CommentApi.swift */; };
+		904616CD24F52C6000079FFC /* CommentApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904616CC24F52C6000079FFC /* CommentApiRequest.swift */; };
+		9046171324F595C800079FFC /* selfSizingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9046171224F595C800079FFC /* selfSizingTableViewCell.swift */; };
+		B84A79961E7929558BB889E3 /* Pods_postCommentsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C717BD649A8F427D6670E862 /* Pods_postCommentsApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EEA430865A6582378D1854E /* Pods-postCommentsApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-postCommentsApi.debug.xcconfig"; path = "Target Support Files/Pods-postCommentsApi/Pods-postCommentsApi.debug.xcconfig"; sourceTree = "<group>"; };
+		903DF73624F6786B0004CC58 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
 		904616AC24F5042800079FFC /* postCommentsApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postCommentsApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904616AF24F5042800079FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		904616B124F5042800079FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		904616B824F5042E00079FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904616BB24F5042E00079FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904616BD24F5042E00079FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904616C524F506C200079FFC /* PostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostApi.swift; sourceTree = "<group>"; };
+		904616C824F5094300079FFC /* PostApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostApiRequest.swift; sourceTree = "<group>"; };
+		904616CA24F52C4400079FFC /* CommentApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentApi.swift; sourceTree = "<group>"; };
+		904616CC24F52C6000079FFC /* CommentApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentApiRequest.swift; sourceTree = "<group>"; };
+		9046171224F595C800079FFC /* selfSizingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfSizingTableViewCell.swift; sourceTree = "<group>"; };
+		C717BD649A8F427D6670E862 /* Pods_postCommentsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_postCommentsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C52741E5B4DFD186AF599 /* Pods-postCommentsApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-postCommentsApi.release.xcconfig"; path = "Target Support Files/Pods-postCommentsApi/Pods-postCommentsApi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84A79961E7929558BB889E3 /* Pods_postCommentsApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5576EC017481EC0368B72242 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEA430865A6582378D1854E /* Pods-postCommentsApi.debug.xcconfig */,
+				D48C52741E5B4DFD186AF599 /* Pods-postCommentsApi.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67A29C14356E84E5D12A785C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C717BD649A8F427D6670E862 /* Pods_postCommentsApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		904616A324F5042800079FFC = {
 			isa = PBXGroup;
 			children = (
 				904616AE24F5042800079FFC /* postCommentsApi */,
 				904616AD24F5042800079FFC /* Products */,
+				5576EC017481EC0368B72242 /* Pods */,
+				67A29C14356E84E5D12A785C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,43 @@
 			children = (
 				904616AF24F5042800079FFC /* AppDelegate.swift */,
 				904616B124F5042800079FFC /* SceneDelegate.swift */,
-				904616B324F5042800079FFC /* ViewController.swift */,
-				904616B524F5042800079FFC /* Main.storyboard */,
+				904616C724F506CC00079FFC /* Model */,
+				904616C324F5068400079FFC /* Controller */,
+				904616C424F5069100079FFC /* View */,
 				904616B824F5042E00079FFC /* Assets.xcassets */,
 				904616BA24F5042E00079FFC /* LaunchScreen.storyboard */,
 				904616BD24F5042E00079FFC /* Info.plist */,
 			);
 			path = postCommentsApi;
+			sourceTree = "<group>";
+		};
+		904616C324F5068400079FFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				904616B324F5042800079FFC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		904616C424F5069100079FFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				904616B524F5042800079FFC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		904616C724F506CC00079FFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				904616C824F5094300079FFC /* PostApiRequest.swift */,
+				904616C524F506C200079FFC /* PostApi.swift */,
+				904616CC24F52C6000079FFC /* CommentApiRequest.swift */,
+				904616CA24F52C4400079FFC /* CommentApi.swift */,
+				9046171224F595C800079FFC /* selfSizingTableViewCell.swift */,
+				903DF73624F6786B0004CC58 /* RealmData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 904616C024F5042E00079FFC /* Build configuration list for PBXNativeTarget "postCommentsApi" */;
 			buildPhases = (
+				13B4F71EE6F5D590B80A7975 /* [CP] Check Pods Manifest.lock */,
 				904616A824F5042800079FFC /* Sources */,
 				904616A924F5042800079FFC /* Frameworks */,
 				904616AA24F5042800079FFC /* Resources */,
+				3928986267E6C85BB8B98AE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +202,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13B4F71EE6F5D590B80A7975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-postCommentsApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3928986267E6C85BB8B98AE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-postCommentsApi/Pods-postCommentsApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-postCommentsApi/Pods-postCommentsApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-postCommentsApi/Pods-postCommentsApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		904616A824F5042800079FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904616CD24F52C6000079FFC /* CommentApiRequest.swift in Sources */,
+				9046171324F595C800079FFC /* selfSizingTableViewCell.swift in Sources */,
+				904616C624F506C200079FFC /* PostApi.swift in Sources */,
+				904616C924F5094300079FFC /* PostApiRequest.swift in Sources */,
+				903DF73724F6786B0004CC58 /* RealmData.swift in Sources */,
 				904616B424F5042800079FFC /* ViewController.swift in Sources */,
 				904616B024F5042800079FFC /* AppDelegate.swift in Sources */,
+				904616CB24F52C4400079FFC /* CommentApi.swift in Sources */,
 				904616B224F5042800079FFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +399,7 @@
 		};
 		904616C124F5042E00079FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEA430865A6582378D1854E /* Pods-postCommentsApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +417,7 @@
 		};
 		904616C224F5042E00079FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48C52741E5B4DFD186AF599 /* Pods-postCommentsApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

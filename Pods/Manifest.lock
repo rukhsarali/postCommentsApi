@@ -1,0 +1,26 @@
+PODS:
+  - ReachabilitySwift (5.0.0)
+  - Realm (5.2.0):
+    - Realm/Headers (= 5.2.0)
+  - Realm/Headers (5.2.0)
+  - RealmSwift (5.2.0):
+    - Realm (= 5.2.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
+  RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+
+PODFILE CHECKSUM: 1e5c366b36d04177155e5c29928b1f05abf897f3
+
+COCOAPODS: 1.9.3
